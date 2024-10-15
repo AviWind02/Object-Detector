@@ -140,6 +140,7 @@
     <ClCompile Include="src\core\logger\logger.cpp" />
     <ClCompile Include="src\core\renderer\renderer.cpp" />
     <ClCompile Include="src\core\renderer\window.cpp" />
+    <ClCompile Include="src\core\webcam\webcam.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
@@ -171,6 +172,7 @@
     <ClInclude Include="src\core\logger\logger.h" />
     <ClInclude Include="src\core\renderer\renderer.h" />
     <ClInclude Include="src\core\renderer\window.h" />
+    <ClInclude Include="src\core\webcam\webcam.h" />
     <ClInclude Include="src\pch.h" />
     <ClInclude Include="src\vendor\ImGui\imconfig.h" />
     <ClInclude Include="src\vendor\ImGui\imgui.h" />

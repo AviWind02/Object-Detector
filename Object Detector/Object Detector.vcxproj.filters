@@ -13,6 +13,7 @@
     <ClCompile Include="src\core\logger\logger.cpp" />
     <ClCompile Include="src\core\renderer\renderer.cpp" />
     <ClCompile Include="src\core\renderer\window.cpp" />
+    <ClCompile Include="src\core\webcam\webcam.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\pch.h" />
@@ -27,6 +28,7 @@
     <ClInclude Include="src\core\logger\logger.h" />
     <ClInclude Include="src\core\renderer\renderer.h" />
     <ClInclude Include="src\core\renderer\window.h" />
+    <ClInclude Include="src\core\webcam\webcam.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="src\vendor\opencv\LICENSE.txt" />
