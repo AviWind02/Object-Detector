@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\pch.cpp" />
+    <ClCompile Include="src\vendor\ImGui\imgui.cpp" />
+    <ClCompile Include="src\vendor\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="src\vendor\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="src\vendor\ImGui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="src\vendor\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="src\vendor\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="src\vendor\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="src\core\logger\logger.cpp" />
+    <ClCompile Include="src\core\renderer\renderer.cpp" />
+    <ClCompile Include="src\core\renderer\window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\pch.h" />
+    <ClInclude Include="src\vendor\ImGui\imconfig.h" />
+    <ClInclude Include="src\vendor\ImGui\imgui.h" />
+    <ClInclude Include="src\vendor\ImGui\imgui_impl_dx11.h" />
+    <ClInclude Include="src\vendor\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="src\vendor\ImGui\imgui_internal.h" />
+    <ClInclude Include="src\vendor\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="src\vendor\ImGui\imstb_textedit.h" />
+    <ClInclude Include="src\vendor\ImGui\imstb_truetype.h" />
+    <ClInclude Include="src\core\logger\logger.h" />
+    <ClInclude Include="src\core\renderer\renderer.h" />
+    <ClInclude Include="src\core\renderer\window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\vendor\opencv\LICENSE.txt" />
+    <Text Include="src\vendor\opencv\LICENSE_FFMPEG.txt" />
+    <Text Include="src\vendor\opencv\README.md.txt" />
+  </ItemGroup>
+</Project>
